@@ -31,7 +31,7 @@ export default function Hero(){
                 <p className="text-2xl font-semibold text-white">my works</p>
                 <Card name={"mp4 transcoder"} desc={" web application built for converting videos into your desired types. it uses ffmpeg web assembly to transcode your videos."} usedname1="nextjs" usedname2="ffmpeg" usedname3="tailwind" href="https://transcoder-blush.vercel.app" github='https://github.com/hrushikesh44/mp4-transcoder' />
                 <Card name={"vercel"} desc={"tried to mimic vercel like functionality, by developing upload, request and deploy services. "} usedname1="react" usedname2="aws-sdk" usedname3="redis" github="https://github.com/hrushikesh44/vercel-req" />
-                <Card name={"chat-app"} desc={" real time chat application for private messaging."} usedname1="react" usedname2="socketio" usedname3="aws-sdk" />
+                <Card name={"chat-app"} desc={" real time chat application for private messaging."} usedname1="react" usedname2="socketio" usedname3="aws-sdk" github="https://github.com/hrushikesh44/chat-app"/>
             </div>
             <div className="flex flex-col justify-center items-center px-5 py-20 md:w-[50vw] lg:w-[40vw]">
                 <p className="mx-auto pb-5 text-xl font-bold">my skills</p>
@@ -58,6 +58,7 @@ export default function Hero(){
                 <Link href={'https://x.com/hrushikesh_44'} ><LucideTwitter /></Link>
                 <Link href={'https://github.com/hrushikesh44'}><Github /></Link>
                 <Link href={'mailto:hrushikesh44.dev@gmail.com'}><Mail /></Link>
+                
             </div>
         </div>
         
