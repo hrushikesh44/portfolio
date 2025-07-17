@@ -1,5 +1,6 @@
 'use client'
 
+import FloatingDock from "@/components/floating-dock";
 import Hero from "@/components/hero";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -17,6 +18,9 @@ useEffect(() => {
   return (
     <div>
       <Hero />
+      <div>
+        <FloatingDock />
+      </div>
     </div>
   );
 }

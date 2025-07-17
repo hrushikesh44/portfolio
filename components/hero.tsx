@@ -33,7 +33,7 @@ export default function Hero(){
                 <Card name={"vercel"} desc={"tried to mimic vercel like functionality, by developing upload, request and deploy services. "} usedname1="react" usedname2="aws-sdk" usedname3="redis" github="https://github.com/hrushikesh44/vercel-req" />
                 <Card name={"chat-app"} desc={" real time chat application for private messaging."} usedname1="react" usedname2="socketio" usedname3="aws-sdk" github="https://github.com/hrushikesh44/chat-app"/>
             </div>
-            <div className="flex flex-col justify-center items-center px-5 py-20 md:w-[50vw] lg:w-[40vw]">
+            <div className="flex flex-col justify-center items-center px-5 pt-20 pb-40 md:w-[50vw] lg:w-[40vw]">
                 <p className="mx-auto pb-5 text-xl font-bold">my skills</p>
                 <div className="flex flex-wrap justify-center gap-3 mx-auto">
                     <Skill name="nextjs" />
@@ -52,13 +52,6 @@ export default function Hero(){
                     <Skill name="redis" />
                     <Skill name="docker" />
                 </div>
-            </div>
-            <div className="flex gap-5 mx-auto items-center justify-center border border-neutral-700 rounded-xl w-fit p-3 hover:scale-105 duration-300 my-5 shadow-neutral-400">
-                <Link href={'/'} ><Home className="scroll-smooth"/></Link>
-                <Link href={'https://x.com/hrushikesh_44'} ><LucideTwitter /></Link>
-                <Link href={'https://github.com/hrushikesh44'}><Github /></Link>
-                <Link href={'mailto:hrushikesh44.dev@gmail.com'}><Mail /></Link>
-                
             </div>
         </div>
         
