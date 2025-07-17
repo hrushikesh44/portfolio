@@ -105,7 +105,7 @@ export const IconContainer = ({ el, mouseX }: { el: Link; mouseX: MotionValue<nu
           width,
           height,
         }}
-        className=" flex items-center justify-center rounded-2xl bg-neutral-900 hover:bg-neutral-900/60 z-0"
+        className=" flex items-center justify-center rounded-2xl bg-neutral-900 hover:bg-neutral-900/60"
       >
         <motion.div
           style={{
