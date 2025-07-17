@@ -53,6 +53,13 @@ export default function Hero(){
                     <Skill name="docker" />
                 </div>
             </div>
+            <div className="flex gap-5 mx-auto items-center sm:hidden justify-center border border-neutral-700 rounded-xl w-fit p-3 hover:scale-105 duration-300 my-5 shadow-neutral-400">
+                <Link href={'/'} ><Home className="scroll-smooth"/></Link>
+                <Link href={'https://x.com/hrushikesh_44'} ><LucideTwitter /></Link>
+                <Link href={'https://github.com/hrushikesh44'}><Github /></Link>
+                <Link href={'mailto:hrushikesh44.dev@gmail.com'}><Mail /></Link>
+                
+            </div>
         </div>
         
     </div>

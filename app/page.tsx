@@ -18,7 +18,7 @@ useEffect(() => {
   return (
     <div>
       <Hero />
-      <div>
+      <div className="hidden sm:block">
         <FloatingDock />
       </div>
     </div>
